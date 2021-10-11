@@ -1,0 +1,48 @@
+.header {
+    font-size: 100;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gainsboro;
+}
+h1{
+    text-align: center;
+}
+.icons{
+    align-items: center;
+    text-align: center;
+}
+.column-box{
+    columns: 2;
+    column-width: 300px;
+    column-gap: 20px;
+}
+.column{
+    float:left;
+}
+.image-and-text{
+    display: flex;
+    background-color: darkgrey;
+    /* padding:2px; */
+    border: 2px solid rgb(83, 83, 83);
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
+.inner-text{
+    padding: 10px;
+    border:grey;
+}
+.main-content{
+    width: 75%;
+    margin: 0 auto;
+    border: 5px solid;
+    /* border-radius: 3px; */
+}
+.form-div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    border: 5px solid grey;
+}
